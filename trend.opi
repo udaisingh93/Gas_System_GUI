@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display typeId="org.csstudio.opibuilder.Display" version="1.0.0">
+  <actions hook="false" hook_all="false" />
+  <auto_scale_widgets>
+    <auto_scale_widgets>false</auto_scale_widgets>
+    <min_width>-1</min_width>
+    <min_height>-1</min_height>
+  </auto_scale_widgets>
+  <auto_zoom_to_fit_all>false</auto_zoom_to_fit_all>
+  <background_color>
+    <color red="240" green="240" blue="240" />
+  </background_color>
+  <boy_version>5.1.0.201707071649</boy_version>
+  <foreground_color>
+    <color red="192" green="192" blue="192" />
+  </foreground_color>
+  <grid_space>6</grid_space>
+  <height>350</height>
+  <macros>
+    <include_parent_macros>true</include_parent_macros>
+  </macros>
+  <name></name>
+  <rules />
+  <scripts />
+  <show_close_button>true</show_close_button>
+  <show_edit_range>true</show_edit_range>
+  <show_grid>true</show_grid>
+  <show_ruler>true</show_ruler>
+  <snap_to_geometry>true</snap_to_geometry>
+  <widget_type>Display</widget_type>
+  <width>1200</width>
+  <wuid>3c2faeda:16d6d90884d:-7cff</wuid>
+  <x>-1</x>
+  <y>-1</y>
+  <widget typeId="org.csstudio.opibuilder.widgets.xyGraph" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <axis_0_auto_scale>true</axis_0_auto_scale>
+    <axis_0_auto_scale_threshold>0.2</axis_0_auto_scale_threshold>
+    <axis_0_axis_color>
+      <color red="0" green="0" blue="0" />
+    </axis_0_axis_color>
+    <axis_0_axis_title>Time</axis_0_axis_title>
+    <axis_0_dash_grid_line>true</axis_0_dash_grid_line>
+    <axis_0_grid_color>
+      <color red="200" green="200" blue="200" />
+    </axis_0_grid_color>
+    <axis_0_log_scale>false</axis_0_log_scale>
+    <axis_0_maximum>600.0</axis_0_maximum>
+    <axis_0_minimum>0.0</axis_0_minimum>
+    <axis_0_scale_font>
+      <opifont.name fontName="Noto Sans" height="11" style="0" pixels="false">Default</opifont.name>
+    </axis_0_scale_font>
+    <axis_0_scale_format></axis_0_scale_format>
+    <axis_0_show_grid>false</axis_0_show_grid>
+    <axis_0_time_format>5</axis_0_time_format>
+    <axis_0_title_font>
+      <opifont.name fontName="Noto Sans" height="11" style="1" pixels="false">Default Bold</opifont.name>
+    </axis_0_title_font>
+    <axis_0_visible>true</axis_0_visible>
+    <axis_1_auto_scale>true</axis_1_auto_scale>
+    <axis_1_auto_scale_threshold>0.4</axis_1_auto_scale_threshold>
+    <axis_1_axis_color>
+      <color red="0" green="0" blue="0" />
+    </axis_1_axis_color>
+    <axis_1_axis_title>Gas Flow  [ml/min]</axis_1_axis_title>
+    <axis_1_dash_grid_line>true</axis_1_dash_grid_line>
+    <axis_1_grid_color>
+      <color red="200" green="200" blue="200" />
+    </axis_1_grid_color>
+    <axis_1_log_scale>false</axis_1_log_scale>
+    <axis_1_maximum>600.0</axis_1_maximum>
+    <axis_1_minimum>0.0</axis_1_minimum>
+    <axis_1_scale_font>
+      <opifont.name fontName="Noto Sans" height="11" style="0" pixels="false">Default</opifont.name>
+    </axis_1_scale_font>
+    <axis_1_scale_format></axis_1_scale_format>
+    <axis_1_show_grid>true</axis_1_show_grid>
+    <axis_1_time_format>0</axis_1_time_format>
+    <axis_1_title_font>
+      <opifont.name fontName="Noto Sans" height="11" style="1" pixels="false">Default Bold</opifont.name>
+    </axis_1_title_font>
+    <axis_1_visible>true</axis_1_visible>
+    <axis_2_auto_scale>false</axis_2_auto_scale>
+    <axis_2_auto_scale_threshold>0.0</axis_2_auto_scale_threshold>
+    <axis_2_axis_color>
+      <color red="147" green="49" blue="88" />
+    </axis_2_axis_color>
+    <axis_2_axis_title>Pressure   [bar]</axis_2_axis_title>
+    <axis_2_dash_grid_line>true</axis_2_dash_grid_line>
+    <axis_2_grid_color>
+      <color red="200" green="200" blue="200" />
+    </axis_2_grid_color>
+    <axis_2_left_bottom_side>false</axis_2_left_bottom_side>
+    <axis_2_log_scale>false</axis_2_log_scale>
+    <axis_2_maximum>3.0</axis_2_maximum>
+    <axis_2_minimum>1.2</axis_2_minimum>
+    <axis_2_scale_font>
+      <opifont.name fontName="Noto Sans" height="11" style="0" pixels="false">Default</opifont.name>
+    </axis_2_scale_font>
+    <axis_2_scale_format></axis_2_scale_format>
+    <axis_2_show_grid>true</axis_2_show_grid>
+    <axis_2_time_format>0</axis_2_time_format>
+    <axis_2_title_font>
+      <opifont.name fontName="Noto Sans" height="11" style="1" pixels="false">Default Bold</opifont.name>
+    </axis_2_title_font>
+    <axis_2_visible>true</axis_2_visible>
+    <axis_2_y_axis>true</axis_2_y_axis>
+    <axis_count>3</axis_count>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <border_color>
+      <color red="128" green="128" blue="128" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="0" green="0" blue="255" />
+    </foreground_color>
+    <height>350</height>
+    <name>XYGraph3</name>
+    <plot_area_background_color>
+      <color red="255" green="255" blue="255" />
+    </plot_area_background_color>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules>
+      <rule name="Trace 0 Visible Rule" prop_id="trace_0_visible" out_exp="true">
+        <exp bool_exp="true">
+          <value>pv0==1</value>
+        </exp>
+        <pv trig="true">loc://$(DID)_trace_0_visible(1)</pv>
+      </rule>
+      <rule name="Trace 1 Visible Rule" prop_id="trace_1_visible" out_exp="true">
+        <exp bool_exp="true">
+          <value>pv0==1</value>
+        </exp>
+        <pv trig="true">loc://$(DID)_trace_1_visible(1)</pv>
+      </rule>
+      <rule name="Trace 2 Visible Rule" prop_id="trace_2_visible" out_exp="true">
+        <exp bool_exp="true">
+          <value>pv0==1</value>
+        </exp>
+        <pv trig="true">loc://$(DID)_trace_2_visible(1)</pv>
+      </rule>
+      <rule name="Trace 3 Visible Rule" prop_id="trace_3_visible" out_exp="true">
+        <exp bool_exp="true">
+          <value>pv0==1</value>
+        </exp>
+        <pv trig="true">loc://$(DID)_trace_3_visible(1)</pv>
+      </rule>
+      <rule name="Trace 4 Visible Rule" prop_id="trace_4_visible" out_exp="true">
+        <exp bool_exp="true">
+          <value>pv0==1</value>
+        </exp>
+        <pv trig="true">loc://$(DID)_trace_4_visible(1)</pv>
+      </rule>
+      <rule name="Trace 5 Visible Rule" prop_id="trace_5_visible" out_exp="true">
+        <exp bool_exp="true">
+          <value>pv0==1</value>
+        </exp>
+        <pv trig="true">loc://$(DID)_trace_5_visible(1)</pv>
+      </rule>
+    </rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <show_legend>true</show_legend>
+    <show_plot_area_border>false</show_plot_area_border>
+    <show_toolbar>false</show_toolbar>
+    <title>Trends</title>
+    <title_font>
+      <opifont.name fontName="Noto Sans" height="11" style="1" pixels="false">Default Bold</opifont.name>
+    </title_font>
+    <tooltip>$(trace_0_y_pv)&#xD;
+$(trace_0_y_pv_value)</tooltip>
+    <trace_0_anti_alias>true</trace_0_anti_alias>
+    <trace_0_buffer_size>600</trace_0_buffer_size>
+    <trace_0_concatenate_data>true</trace_0_concatenate_data>
+    <trace_0_line_width>3</trace_0_line_width>
+    <trace_0_name>Ar flow in</trace_0_name>
+    <trace_0_plot_mode>0</trace_0_plot_mode>
+    <trace_0_point_size>8</trace_0_point_size>
+    <trace_0_point_style>1</trace_0_point_style>
+    <trace_0_trace_color>
+      <color red="21" green="21" blue="196" />
+    </trace_0_trace_color>
+    <trace_0_trace_type>0</trace_0_trace_type>
+    <trace_0_update_delay>50</trace_0_update_delay>
+    <trace_0_update_mode>1</trace_0_update_mode>
+    <trace_0_visible>true</trace_0_visible>
+    <trace_0_x_axis_index>0</trace_0_x_axis_index>
+    <trace_0_x_pv></trace_0_x_pv>
+    <trace_0_x_pv_value />
+    <trace_0_y_axis_index>1</trace_0_y_axis_index>
+    <trace_0_y_pv>ca://HAD:STS:GAS:measure0</trace_0_y_pv>
+    <trace_0_y_pv_value />
+    <trace_1_anti_alias>true</trace_1_anti_alias>
+    <trace_1_buffer_size>600</trace_1_buffer_size>
+    <trace_1_concatenate_data>true</trace_1_concatenate_data>
+    <trace_1_line_width>3</trace_1_line_width>
+    <trace_1_name>CO2 flow in</trace_1_name>
+    <trace_1_plot_mode>0</trace_1_plot_mode>
+    <trace_1_point_size>8</trace_1_point_size>
+    <trace_1_point_style>3</trace_1_point_style>
+    <trace_1_trace_color>
+      <color red="242" green="26" blue="26" />
+    </trace_1_trace_color>
+    <trace_1_trace_type>0</trace_1_trace_type>
+    <trace_1_update_delay>50</trace_1_update_delay>
+    <trace_1_update_mode>1</trace_1_update_mode>
+    <trace_1_visible>true</trace_1_visible>
+    <trace_1_x_axis_index>0</trace_1_x_axis_index>
+    <trace_1_x_pv></trace_1_x_pv>
+    <trace_1_x_pv_value />
+    <trace_1_y_axis_index>1</trace_1_y_axis_index>
+    <trace_1_y_pv>ca://HAD:STS:GAS:measure1</trace_1_y_pv>
+    <trace_1_y_pv_value />
+    <trace_2_anti_alias>true</trace_2_anti_alias>
+    <trace_2_buffer_size>600</trace_2_buffer_size>
+    <trace_2_concatenate_data>true</trace_2_concatenate_data>
+    <trace_2_line_width>3</trace_2_line_width>
+    <trace_2_name>STS1 flow out</trace_2_name>
+    <trace_2_plot_mode>0</trace_2_plot_mode>
+    <trace_2_point_size>8</trace_2_point_size>
+    <trace_2_point_style>2</trace_2_point_style>
+    <trace_2_trace_color>
+      <color red="33" green="179" blue="33" />
+    </trace_2_trace_color>
+    <trace_2_trace_type>0</trace_2_trace_type>
+    <trace_2_update_delay>50</trace_2_update_delay>
+    <trace_2_update_mode>1</trace_2_update_mode>
+    <trace_2_visible>true</trace_2_visible>
+    <trace_2_x_axis_index>0</trace_2_x_axis_index>
+    <trace_2_x_pv></trace_2_x_pv>
+    <trace_2_x_pv_value />
+    <trace_2_y_axis_index>1</trace_2_y_axis_index>
+    <trace_2_y_pv>ca://HAD:STS:GAS:measure2</trace_2_y_pv>
+    <trace_2_y_pv_value />
+    <trace_3_anti_alias>false</trace_3_anti_alias>
+    <trace_3_buffer_size>600</trace_3_buffer_size>
+    <trace_3_concatenate_data>true</trace_3_concatenate_data>
+    <trace_3_line_width>3</trace_3_line_width>
+    <trace_3_name>STS2 flow out</trace_3_name>
+    <trace_3_plot_mode>0</trace_3_plot_mode>
+    <trace_3_point_size>8</trace_3_point_size>
+    <trace_3_point_style>5</trace_3_point_style>
+    <trace_3_trace_color>
+      <color red="0" green="0" blue="0" />
+    </trace_3_trace_color>
+    <trace_3_trace_type>0</trace_3_trace_type>
+    <trace_3_update_delay>50</trace_3_update_delay>
+    <trace_3_update_mode>1</trace_3_update_mode>
+    <trace_3_visible>true</trace_3_visible>
+    <trace_3_x_axis_index>0</trace_3_x_axis_index>
+    <trace_3_x_pv></trace_3_x_pv>
+    <trace_3_x_pv_value />
+    <trace_3_y_axis_index>1</trace_3_y_axis_index>
+    <trace_3_y_pv>ca://HAD:STS:GAS:measure3</trace_3_y_pv>
+    <trace_3_y_pv_value />
+    <trace_4_anti_alias>true</trace_4_anti_alias>
+    <trace_4_buffer_size>600</trace_4_buffer_size>
+    <trace_4_concatenate_data>true</trace_4_concatenate_data>
+    <trace_4_line_width>3</trace_4_line_width>
+    <trace_4_name>STS1 Pressure</trace_4_name>
+    <trace_4_plot_mode>0</trace_4_plot_mode>
+    <trace_4_point_size>8</trace_4_point_size>
+    <trace_4_point_style>7</trace_4_point_style>
+    <trace_4_trace_color>
+      <color red="128" green="0" blue="255" />
+    </trace_4_trace_color>
+    <trace_4_trace_type>0</trace_4_trace_type>
+    <trace_4_update_delay>50</trace_4_update_delay>
+    <trace_4_update_mode>1</trace_4_update_mode>
+    <trace_4_visible>true</trace_4_visible>
+    <trace_4_x_axis_index>0</trace_4_x_axis_index>
+    <trace_4_x_pv></trace_4_x_pv>
+    <trace_4_x_pv_value />
+    <trace_4_y_axis_index>2</trace_4_y_axis_index>
+    <trace_4_y_pv>ca://HAD:STS:GAS:measure4</trace_4_y_pv>
+    <trace_4_y_pv_value />
+    <trace_5_anti_alias>true</trace_5_anti_alias>
+    <trace_5_buffer_size>600</trace_5_buffer_size>
+    <trace_5_concatenate_data>true</trace_5_concatenate_data>
+    <trace_5_line_width>3</trace_5_line_width>
+    <trace_5_name>STS2 Pressure</trace_5_name>
+    <trace_5_plot_mode>0</trace_5_plot_mode>
+    <trace_5_point_size>8</trace_5_point_size>
+    <trace_5_point_style>8</trace_5_point_style>
+    <trace_5_trace_color>
+      <color red="255" green="170" blue="0" />
+    </trace_5_trace_color>
+    <trace_5_trace_type>0</trace_5_trace_type>
+    <trace_5_update_delay>50</trace_5_update_delay>
+    <trace_5_update_mode>1</trace_5_update_mode>
+    <trace_5_visible>true</trace_5_visible>
+    <trace_5_x_axis_index>0</trace_5_x_axis_index>
+    <trace_5_x_pv></trace_5_x_pv>
+    <trace_5_x_pv_value />
+    <trace_5_y_axis_index>2</trace_5_y_axis_index>
+    <trace_5_y_pv>ca://HAD:STS:GAS:measure5</trace_5_y_pv>
+    <trace_5_y_pv_value />
+    <trace_count>6</trace_count>
+    <transparent>false</transparent>
+    <trigger_pv>HAD:STS:GAS:measure0</trigger_pv>
+    <trigger_pv_value />
+    <visible>true</visible>
+    <widget_type>XY Graph</widget_type>
+    <width>900</width>
+    <wuid>3c2faeda:16d6d90884d:-7cf7</wuid>
+    <x>-1</x>
+    <y>-1</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <font>
+      <opifont.name fontName="Noto Sans" height="11" style="0" pixels="false">Default</opifont.name>
+    </font>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <group_name></group_name>
+    <height>20</height>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <inputPV>loc://$(DID)_trace_0_visible(1)</inputPV>
+      <name>Ar flow in</name>
+    </macros>
+    <name>Linking Container_6</name>
+    <opi_file>Tracevisible.opi</opi_file>
+    <resize_behaviour>0</resize_behaviour>
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <visible>true</visible>
+    <widget_type>Linking Container</widget_type>
+    <width>140</width>
+    <wuid>3c2faeda:16d6d90884d:-78a8</wuid>
+    <x>930</x>
+    <y>66</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <font>
+      <opifont.name fontName="Noto Sans" height="11" style="0" pixels="false">Default</opifont.name>
+    </font>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <group_name></group_name>
+    <height>20</height>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <inputPV>loc://$(DID)_trace_1_visible(1)</inputPV>
+      <name>CO2 flow in</name>
+    </macros>
+    <name>Linking Container_7</name>
+    <opi_file>Tracevisible.opi</opi_file>
+    <resize_behaviour>0</resize_behaviour>
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <visible>true</visible>
+    <widget_type>Linking Container</widget_type>
+    <width>140</width>
+    <wuid>3c2faeda:16d6d90884d:-78a3</wuid>
+    <x>930</x>
+    <y>96</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <font>
+      <opifont.name fontName="Noto Sans" height="11" style="0" pixels="false">Default</opifont.name>
+    </font>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <group_name></group_name>
+    <height>20</height>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <inputPV>loc://$(DID)_trace_2_visible(1)</inputPV>
+      <name>STS1 flow out</name>
+    </macros>
+    <name>Linking Container_8</name>
+    <opi_file>Tracevisible.opi</opi_file>
+    <resize_behaviour>0</resize_behaviour>
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <visible>true</visible>
+    <widget_type>Linking Container</widget_type>
+    <width>140</width>
+    <wuid>3c2faeda:16d6d90884d:-789e</wuid>
+    <x>930</x>
+    <y>126</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <font>
+      <opifont.name fontName="Noto Sans" height="11" style="0" pixels="false">Default</opifont.name>
+    </font>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <group_name></group_name>
+    <height>20</height>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <inputPV>loc://$(DID)_trace_3_visible(1)</inputPV>
+      <name>STS2 flow out</name>
+    </macros>
+    <name>Linking Container_9</name>
+    <opi_file>Tracevisible.opi</opi_file>
+    <resize_behaviour>0</resize_behaviour>
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <visible>true</visible>
+    <widget_type>Linking Container</widget_type>
+    <width>140</width>
+    <wuid>3c2faeda:16d6d90884d:-7899</wuid>
+    <x>930</x>
+    <y>156</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <font>
+      <opifont.name fontName="Noto Sans" height="11" style="0" pixels="false">Default</opifont.name>
+    </font>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <group_name></group_name>
+    <height>20</height>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <inputPV>loc://$(DID)_trace_4_visible(1)</inputPV>
+      <name>STS1 Pressure</name>
+    </macros>
+    <name>Linking Container_10</name>
+    <opi_file>Tracevisible.opi</opi_file>
+    <resize_behaviour>0</resize_behaviour>
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <visible>true</visible>
+    <widget_type>Linking Container</widget_type>
+    <width>140</width>
+    <wuid>3c2faeda:16d6d90884d:-7894</wuid>
+    <x>930</x>
+    <y>186</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <font>
+      <opifont.name fontName="Noto Sans" height="11" style="0" pixels="false">Default</opifont.name>
+    </font>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <group_name></group_name>
+    <height>20</height>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <inputPV>loc://$(DID)_trace_5_visible(1)</inputPV>
+      <name>STS2 Pressure</name>
+    </macros>
+    <name>Linking Container_11</name>
+    <opi_file>Tracevisible.opi</opi_file>
+    <resize_behaviour>0</resize_behaviour>
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip></tooltip>
+    <visible>true</visible>
+    <widget_type>Linking Container</widget_type>
+    <width>140</width>
+    <wuid>3c2faeda:16d6d90884d:-788f</wuid>
+    <x>930</x>
+    <y>216</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <auto_size>false</auto_size>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <font>
+      <opifont.name fontName="Noto Sans" height="11" style="1" pixels="false">Default Bold</opifont.name>
+    </font>
+    <foreground_color>
+      <color red="25" green="118" blue="128" />
+    </foreground_color>
+    <height>26</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <name>Label_54</name>
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <text>SP: Set Point</text>
+    <tooltip></tooltip>
+    <transparent>true</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <visible>true</visible>
+    <widget_type>Label</widget_type>
+    <width>119</width>
+    <wrap_words>false</wrap_words>
+    <wuid>3c2faeda:16d6d90884d:-780e</wuid>
+    <x>924</x>
+    <y>18</y>
+  </widget>
+</display>
